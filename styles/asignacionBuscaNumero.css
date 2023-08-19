@@ -1,6 +1,60 @@
-body {
-    background-color: aquamarine;
-    font-size: large;
-    text-align: center;
-
+body{
+    background-color: powderblue ;
 }
+h1 , h3{
+    color: black;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: black(0, 0, 0);
+    border-radius: 5px;
+   
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    margin-left: 35%;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+p{
+    color: black;
+   text-align: center;
+}
+
+#guessForm {
+    display: flex;
+    flex-direction: row; /* Cambiamos de 'column' a 'row' para línea horizontal */
+    justify-content: center; /* Agregamos esta línea para centrar horizontalmente */
+    align-items: center;
+  }
+  
+  button {
+    margin: 5px;
+  }
+
+  
